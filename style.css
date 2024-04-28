@@ -1,4 +1,12 @@
 p{
+    position: relative;
+    display: inline-block;
     color:blue;
+    font-size: 80px;
+    margin: 0px;
+    background-color: aquamarine;
+}
+p::first-letter{
     font-size: 150px;
+    color: pink;
 }
